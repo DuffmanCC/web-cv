@@ -24,6 +24,12 @@
             <a href="tel:+44 7592 238 443">+44 7592 238 443</a>  
           </div>
 
+          <div>
+            <span class="cursor-pointer font-icon icon-phone mr-2"></span>
+
+            <a href="tel:+44 7592 238 443">+34 630 20 87 07</a>
+          </div>
+
           <div class="text-2xl my-3">
             <a 
               class="cursor-pointer font-icon icon-github mr-2" 
@@ -92,7 +98,7 @@
             <div class="mb-6 flex flex-wrap">
               <span 
                 class="rounded-xl bg-gray-300 px-3 mx-1 my-1"
-                v-for="skill in ['Vue.js', 'Vuex', 'Webpack', 'Tailwindcss', 'GraphQL',  'Git', 'Laravel', 'Sage', 'WP Engine']"
+                v-for="skill in ['Vue.js', 'Vuex', 'TypeScript', 'Webpack', 'Tailwindcss', 'GraphQL',  'Git', 'Laravel', 'Sage', 'WP Engine']"
                 :key="skill"
               >{{ skill }}</span>
             </div>

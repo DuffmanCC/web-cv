@@ -28,3 +28,11 @@
     content: "\f095";
 }
 
+.icon-sun:before {
+    content: "\e28f";
+}
+
+.icon-moon:before {
+    content: "\f186";
+}
+

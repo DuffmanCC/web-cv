@@ -1,0 +1,48 @@
+{
+  "profile": "Full-stack developer specialized in WordPress and single-page applications. I have developed a wide range of websites using the latest trends and frameworks. Skilled at writing efficient, scalable, and maintainable code using current best practices.",
+  "exprerience": [
+    {
+      "title": "Full Stack Web Developer",
+      "company": "Network Rail",
+      "type": "Full time",
+      "period": "Feb 2018 - April 2022 . 4 years 3 months",
+      "place": "Milton Keynes, United Kingdom",
+      "tasks": [
+        "Design the architecture, develop and maintenance the corporate website of the company.",
+        "Lead on the design and implementation of new features and functionality to enhance the user experience.",
+        "Creation of a design system based on Storybook to manage all frontend resources of the corporate website.",
+        "Creation of single-page applications and other microsites based on Vue.js.",
+        "Monitor website performance and take appropriate action to ensure optimal performance.",
+        "Define development workflows and processes to optimize the resources.",
+        "Passionate about keeping up-to-date with the latest trends in web developments, CSS technics, JS frameworks, and accessibility."
+      ],
+      "skills": ["Vue.js", "Vuex", "TypeScript", "Webpack", "Tailwindcss", "GraphQL",  "Git", "Laravel", "Sage", "WP Engine"],
+      "projects": [
+        {"url": "https://www.networkrail.co.uk', title: 'Network Rail corporate website"},
+        {"url": "https://www.networkrail.co.uk/careers/careers-search/', title: 'Careers Search"},
+        {"url": "https://duffmancc.github.io/sustainability-at-network-rail/', title: 'Sustainability at Network Rail"}
+      ]
+    },
+    {
+      "title": "Web Developer",
+      "company": "Klood Ltd",
+      "type": "Full time",
+      "period": "Nov 2015 - Nov 2017 . 2 years 1 month",
+      "place": "Milton Keynes, United Kingdom",
+      "tasks": [
+        "Created custom plugins, themes, and functions for WordPress based sites.",
+        "Tested front-end code in multiple browsers to ensure cross-browser compatability.",
+        "Maintained brand standards under company guidelines.",
+        "Optimized pages for page speed using Google Page Speed (API) for Apache to obtain higher rankings on Search Engines (SEM).",
+        "Front-end development using latest HTML5 and CSS3 techniques, backed by jQuery and Vue.js to enable optimum user experience throughout the websites.",
+        "Worked in Agile methodology."
+      ],
+      "skills": ["jQuery", "Gulp", "Composer", "Git", "Docker", "Bootstrap", "Vuj.js", "Laravel", "Sage", "cPanel", "WooCommerce"],
+      "projects": [
+        {"url": "http://www.vwfsfleet.co.uk', title: 'Volkswagen Financial Services"},
+        {"url": "http://www.peachpubs.com', title: 'Peach Pubs"},
+        {"url": "http://www.retailthinktank.co.uk', title: 'Retail think tank"}
+      ]
+    }
+  ]
+}

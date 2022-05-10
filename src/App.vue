@@ -153,6 +153,7 @@
 import VSwitch from "./components/VSwitch.vue"
 import contentEn from "./data/en.json"
 import contentEs from "./data/es.json"
+import {pageview } from "vue-gtag"
 
 export default {
   name: 'App',
@@ -176,6 +177,12 @@ export default {
 
       return contentEn
     }
+  },
+
+  methods: {
+    track() {
+      pageview("/");
+    },
   },
 
   created() {

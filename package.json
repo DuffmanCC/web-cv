@@ -2,6 +2,7 @@
   "name": "web-cv",
   "version": "1.0.0",
   "homepage": "https://duffmancc.github.io/web-cv/",
+  "license": "UNLICENSED",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",

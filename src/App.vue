@@ -61,7 +61,6 @@
                     href="https://github.com/DuffmanCC"
                     aria-label="github"
                     target="_blank"
-                    @click="trackClick"
                   ></a>
 
                   <a 
@@ -69,7 +68,6 @@
                     href="https://www.linkedin.com/in/carlosortiz79/"
                     aria-label="linkedin"
                     target="_blank"
-                    @click="trackClick"
                   ></a>
                 </div>
               </div>
@@ -180,12 +178,6 @@ export default {
     }
   },
 
-  methods: {
-    track() {
-      this.$gtag.pageview({page_path: this.$route})
-    }
-  },
-
   created() {
     document.documentElement.lang = 'en'
     document.title = "Carlos Ortiz Resume"
@@ -203,8 +195,6 @@ export default {
     const description = this.spanish ? 'Full Stack developer especializado en WordPress y aplicaciones de una sola página. He desarrollado una amplia gama de sitios web utilizando las últimas tendencias y frameworks. Habilidad para escribir código eficiente, escalable y mantenible utilizando las mejores prácticas actuales.' : 'Full Stack developer specialized in WordPress and single-page applications. I have developed a wide range of websites using the latest trends and frameworks. Skilled at writing efficient, scalable, and maintainable code using current best practices.'
 
     document.querySelector('meta[name="description"]').content = description
-
-    this.track
   }
 }
 </script>

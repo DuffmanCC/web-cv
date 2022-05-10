@@ -179,12 +179,6 @@ export default {
     }
   },
 
-  methods: {
-    track() {
-      pageview("/");
-    },
-  },
-
   created() {
     document.documentElement.lang = 'en'
     document.title = "Carlos Ortiz Resume"
@@ -192,6 +186,8 @@ export default {
     meta.name = "description"
     meta.content = "Full Stack developer specialized in WordPress and single-page applications. I have developed a wide range of websites using the latest trends and frameworks. Skilled at writing efficient, scalable, and maintainable code using current best practices."
     document.getElementsByTagName('head')[0].appendChild(meta)
+
+    pageview("/")
   },
 
   updated() {

@@ -1,12 +1,37 @@
 {
-  "profile": "<p class='mb-4'>Full Stack developer specialized in WordPress and single-page applications. I have developed a wide range of websites using the latest trends and frameworks. Skilled at writing efficient, scalable, and maintainable code using current best practices.</p><p class='mb-4'>Over the last 4 years, I've been leading the architecture and development of the corporate website of <a href='https://www.networkrail.co.uk' class='hover:underline text-blue-800 dark:text-blue-400'>Network Rail</a>, implementing new features and functionalities to enhance the user experience.</p><p>Currently improving my skills focusing mainly on Node.js and React.</p>",
+  "profile": "<p class='mb-4'>Full Stack developer specialized in WordPress and single-page applications. I have developed a wide range of websites using the latest trends and frameworks. Skilled at writing efficient, scalable, and maintainable code using current best practices.</p><p class='mb-4'>Over the last 4 years, I've been leading the architecture and development of the corporate website of <a href='https://www.networkrail.co.uk' class='hover:underline text-blue-800 dark:text-blue-400'>Network Rail</a>, implementing new features and functionalities to enhance the user experience.</p><p class='mb-4'>I primarily focus on building WordPress sites and bringing the Laravel ecosystem into them with Tailwind CSS, VueJS, and ACF Blocks.</p>",
   "experience": [
+    {
+      "title": "WordPress Developer",
+      "company": "Totally group",
+      "url": "https://totally.tech/",
+      "type": "Contractor Full time",
+      "period": "Jun 2022 - December 2022 | 7 months",
+      "place": "Full remote from Spain",
+      "tasks": [
+        "- Worked on several projects for WordPress sites Responsibilities included implementing new features, fixing existing bugs, coordinating with other developers and project managers, improving code quality, improving technology stacks, and delivering the needs of our clients."
+      ],
+      "projects": [
+        {
+          "url": "https://www.startuploans.co.uk/",
+          "title": "Start Up Loans"
+        },
+        {
+          "url": "https://www.txone.com/",
+          "title": "txOne networks"
+        },
+        {
+          "url": "https://businessdisabilityforum.org.uk/",
+          "title": "Business Disability Forum"
+        }
+      ]
+    },
     {
       "title": "Full Stack Web Developer",
       "company": "Network Rail",
       "url": "https://www.networkrail.co.uk/",
       "type": "Full time",
-      "period": "Feb 2018 - April 2022 . 4 years 3 months",
+      "period": "Feb 2018 - April 2022 | 4 years and 3 months",
       "place": "Milton Keynes, United Kingdom",
       "tasks": [
         "- Design the architecture, development, and maintenance of the corporate website of the company.",
@@ -16,18 +41,30 @@
         "- Creation of single-page applications and other microsites based on Vue.js.",
         "- Monitor website performance and take appropriate action to ensure optimal performance."
       ],
-      "skills": ["Vue.js", "Vuex", "TypeScript", "Webpack", "Tailwindcss", "GraphQL",  "Git", "Laravel", "Sage", "WP Engine", "OAuth"],
+      "skills": [
+        "Vue.js",
+        "Vuex",
+        "TypeScript",
+        "Webpack",
+        "Tailwindcss",
+        "GraphQL",
+        "Git",
+        "Laravel",
+        "Sage",
+        "WP Engine",
+        "OAuth"
+      ],
       "projects": [
         {
-          "url": "https://www.networkrail.co.uk", 
+          "url": "https://www.networkrail.co.uk",
           "title": "Network Rail corporate website"
         },
         {
-          "url": "https://www.networkrail.co.uk/careers/careers-search/2", 
+          "url": "https://www.networkrail.co.uk/careers/careers-search/2",
           "title": "Careers Search"
         },
         {
-          "url": "https://duffmancc.github.io/sustainability-at-network-rail/2", 
+          "url": "https://duffmancc.github.io/sustainability-at-network-rail/2",
           "title": "Sustainability at Network Rail"
         }
       ]
@@ -37,7 +74,7 @@
       "company": "Klood Ltd",
       "url": "https://www.klood.com/",
       "type": "Full time",
-      "period": "Nov 2015 - Nov 2017 . 2 years 1 month",
+      "period": "Nov 2015 - Nov 2017 | 2 years and 1 month",
       "place": "Milton Keynes, United Kingdom",
       "tasks": [
         "- Meeting with clients to discuss website designs and functions.",
@@ -49,18 +86,29 @@
         "- Front-end development using the latest HTML5 and CSS3 techniques, backed by jQuery to enable optimum user experience throughout the websites.",
         "- Working in Agile methodology."
       ],
-      "skills": ["jQuery", "Gulp", "Composer", "Git", "Docker", "Bootstrap", "Sage", "Laravel", "cPanel", "WooCommerce"],
+      "skills": [
+        "jQuery",
+        "Gulp",
+        "Composer",
+        "Git",
+        "Docker",
+        "Bootstrap",
+        "Sage",
+        "Laravel",
+        "cPanel",
+        "WooCommerce"
+      ],
       "projects": [
         {
-          "url": "http://www.vwfsfleet.co.uk", 
+          "url": "http://www.vwfsfleet.co.uk",
           "title": "Volkswagen Financial Services"
         },
         {
-          "url": "http://www.peachpubs.com", 
+          "url": "http://www.peachpubs.com",
           "title": "Peach Pubs"
         },
         {
-          "url": "http://www.retailthinktank.co.uk", 
+          "url": "http://www.retailthinktank.co.uk",
           "title": "Retail think tank"
         }
       ]

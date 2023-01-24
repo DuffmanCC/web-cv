@@ -6,14 +6,18 @@
       <div
         class="border-2 w-12 h-6 rounded-full flex mr-2 transition duration-200"
         :class="[
-          switchValue 
+          switchValue
           ? 'justify-end border-gray-500 bg-gray-500'
           : 'justfy-start border-gray-300 bg-gray-300'
         ]"
       >
         <div
           class="h-5 w-5 bg-white rounded-full relative flex items-center justify-center"
-          :class="[switchValue ? '-right-px' : '-left-px']"
+          :class="[
+            switchValue
+            ? '-right-px'
+            : '-left-px'
+          ]"
         >
           <slot name="icon"></slot>
         </div>

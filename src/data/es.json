@@ -52,7 +52,8 @@
         "Laravel",
         "Sage",
         "WP Engine",
-        "OAuth"
+        "OAuth",
+        "JWT"
       ],
       "projects": [
         {

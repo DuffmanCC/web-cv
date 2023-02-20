@@ -1,5 +1,5 @@
 {
-  "profile": "<p class='mb-4'>Full Stack developer especializado en WordPress y aplicaciones de una sola página. He desarrollado una amplia gama de sitios web utilizando las últimas tendencias y frameworks. Habilidad para escribir código eficiente, escalable y mantenible utilizando las mejores prácticas actuales.</p><p class='mb-4'>Durante los últimos 4 años he estado liderando la arquitectura y desarrollo de la web corporativa de <a href='https://www.networkrail.co.uk' class='hover:underline text-blue-800 dark:text-blue-400'>Network Rail</a>, implementando nuevas funcionalidades para mejorar la experiencia del usuario.</p><p class='mb-4'>Me enfoco principalmente en crear sitios de WordPress y traerles el ecosistema Laravel con Tailwind CSS, VueJS y ACF Blocks.</p>",
+  "profile": "<p class='mb-4'>Full Stack developer especializado en WordPress y aplicaciones de una sola página. He desarrollado una amplia gama de sitios web utilizando las últimas tendencias y frameworks. Habilidad para escribir código eficiente, escalable y mantenible utilizando las mejores prácticas actuales.</p><p class='mb-4'>Durante los últimos 4 años he estado liderando la arquitectura y desarrollo de la web corporativa de <a href='https://www.networkrail.co.uk' class='hover:underline text-blue-800 dark:text-blue-400'>Network Rail</a>, implementando nuevas funcionalidades para mejorar la experiencia del usuario.</p><p class='mb-4'>Me enfoco principalmente en crear sitios de WordPress y traerles el ecosistema Laravel con Tailwind CSS, Vue.js y ACF Blocks.</p>",
   "experience": [
     {
       "title": "WordPress Developer",
@@ -44,6 +44,7 @@
       "skills": [
         "Vue.js",
         "Vuex",
+        "React",
         "TypeScript",
         "Webpack",
         "Tailwindcss",

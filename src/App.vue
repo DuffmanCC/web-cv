@@ -147,7 +147,7 @@
                     >
                   </div>
 
-                  <div>
+                  <div v-if="job.projects > 0">
                     <h3 class="text-xl">Example Projects</h3>
 
                     <a

@@ -2,14 +2,44 @@
   "profile": "<p class='mb-4'>Full Stack developer specialized in WordPress and single-page applications. I have developed a wide range of websites using the latest trends and frameworks. Skilled at writing efficient, scalable, and maintainable code using current best practices.</p><p class='mb-4'>Over the last 4 years, I've been leading the architecture and development of the corporate website of <a href='https://www.networkrail.co.uk' class='hover:underline text-blue-800 dark:text-blue-400'>Network Rail</a>, implementing new features and functionalities to enhance the user experience.</p><p class='mb-4'>I primarily focus on building WordPress sites and bringing the Laravel ecosystem into them with Tailwind CSS, Vue.js, and ACF Blocks.</p>",
   "experience": [
     {
+      "title": "Front End Developer",
+      "company": "CoVi Analytics",
+      "url": "https://www.covianalytics.com/",
+      "type": "Contractor Full time",
+      "period": "Jan 2023 - present",
+      "place": "Full remote, Spain",
+      "tasks": ["- App migration from Vue.js to React"],
+      "skills": [
+        "Vue.js",
+        "React",
+        "TypeScript",
+        "Tailwindcss",
+        "GraphQL",
+        "Git",
+        "JWT"
+      ],
+      "projects": []
+    },
+    {
       "title": "WordPress Developer",
-      "company": "Totally group",
+      "company": "Totally Group",
       "url": "https://totally.tech/",
       "type": "Contractor Full time",
       "period": "Jun 2022 - December 2022 | 7 months",
-      "place": "Full remote from Spain",
+      "place": "Full remote, Spain",
       "tasks": [
-        "- Worked on several projects for WordPress sites Responsibilities included implementing new features, fixing existing bugs, coordinating with other developers and project managers, improving code quality, improving technology stacks, and delivering the needs of our clients."
+        "- Worked on several projects for WordPress sites. Responsibilities included implementing new features, fixing existing bugs, coordinating with other developers and project managers, improving code quality, improving technology stacks, and delivering the needs of our clients."
+      ],
+      "skills": [
+        "jQuery",
+        "Webpack",
+        "Sass",
+        "BEM",
+        "Git",
+        "Sage",
+        "Bedrock",
+        "Docker",
+        "GitLab"
       ],
       "projects": [
         {

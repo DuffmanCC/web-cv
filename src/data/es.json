@@ -2,14 +2,44 @@
   "profile": "<p class='mb-4'>Full Stack developer especializado en WordPress y aplicaciones de una sola página. He desarrollado una amplia gama de sitios web utilizando las últimas tendencias y frameworks. Habilidad para escribir código eficiente, escalable y mantenible utilizando las mejores prácticas actuales.</p><p class='mb-4'>Durante los últimos 4 años he estado liderando la arquitectura y desarrollo de la web corporativa de <a href='https://www.networkrail.co.uk' class='hover:underline text-blue-800 dark:text-blue-400'>Network Rail</a>, implementando nuevas funcionalidades para mejorar la experiencia del usuario.</p><p class='mb-4'>Me enfoco principalmente en crear sitios de WordPress y traerles el ecosistema Laravel con Tailwind CSS, Vue.js y ACF Blocks.</p>",
   "experience": [
     {
+      "title": "Front End Developer",
+      "company": "CoVi Analytics",
+      "url": "https://www.covianalytics.com/",
+      "type": "Contractor Full time",
+      "period": "Jan 2023 - present",
+      "place": "Full remote, Spain",
+      "tasks": ["- Migración de web app de Vue.js a React"],
+      "skills": [
+        "Vue.js",
+        "React",
+        "TypeScript",
+        "Tailwindcss",
+        "GraphQL",
+        "Git",
+        "JWT"
+      ],
+      "projects": []
+    },
+    {
       "title": "WordPress Developer",
-      "company": "Totally group",
+      "company": "Totally Group",
       "url": "https://totally.tech/",
       "type": "Contractor Full time",
       "period": "Jun 2022 - Diciembre 2022 | 7 months",
-      "place": "Full remote from Spain",
+      "place": "Full remote, Spain",
       "tasks": [
         "- Trabajé en varios proyectos para sitios de WordPress. Las responsabilidades incluyeron la implementación de nuevas funcionalidades, la corrección de errores, la coordinación con otros desarrolladores y proyect managers y la mejora de la calidad del código y refactorización."
+      ],
+      "skills": [
+        "jQuery",
+        "Webpack",
+        "Sass",
+        "BEM",
+        "Git",
+        "Sage",
+        "Bedrock",
+        "Docker",
+        "GitLab"
       ],
       "projects": [
         {

@@ -1,5 +1,5 @@
 {
-  "profile": "<p class='mb-4'>Full Stack developer specialized in WordPress and single-page applications. I have developed a wide range of websites using the latest trends and frameworks. Skilled at writing efficient, scalable, and maintainable code using current best practices.</p><p class='mb-4'>Over the last 4 years, I've been leading the architecture and development of the corporate website of <a href='https://www.networkrail.co.uk' class='hover:underline text-blue-800 dark:text-blue-400'>Network Rail</a>, implementing new features and functionalities to enhance the user experience.</p><p class='mb-4'>I primarily focus on building WordPress sites and bringing the Laravel ecosystem into them with Tailwind CSS, Vue.js, and ACF Blocks.</p>",
+  "profile": "<p class='mb-4'>Full Stack developer specialized in WordPress and single-page applications. I have developed a wide range of websites using the latest trends and frameworks. Skilled at writing efficient, scalable, and maintainable code using current best practices.</p><p class='mb-4'>Over the last 4 years, I've been leading the architecture and development of the corporate website of <a href='https://www.networkrail.co.uk' class='hover:underline text-blue-800 dark:text-blue-400'>Network Rail</a>, implementing new features and functionalities to enhance the user experience.</p><p class='mb-4'>I primarily focus on building WordPress sites and bringing the Laravel ecosystem into them with Tailwind CSS, Vue.js, ACF Blocks and headless approach.</p><p>Lately doing more React and Node.js stuff.</p>",
   "experience": [
     {
       "title": "Front End Developer",
@@ -66,6 +66,7 @@
       "tasks": [
         "- Design the architecture, development, and maintenance of the corporate website of the company.",
         "- Lead on the design and implementation of new features and functionality to enhance the user experience.",
+        "- Define standards and tech stack with other agencies and teams.",
         "- Custom Gutenberg blocks creation based on Advanced Custom Fields and Vue.js.",
         "- Creation of a design system based on <a href='https://storybook.js.org/' target='_blank' class='hover:underline text-blue-800 dark:text-blue-400'>Storybook</a> to manage all frontend resources of the corporate website.",
         "- Creation of single-page applications and other microsites based on Vue.js.",
@@ -132,15 +133,15 @@
       ],
       "projects": [
         {
-          "url": "http://www.vwfsfleet.co.uk",
+          "url": "https://www.vwfsfleet.co.uk",
           "title": "Volkswagen Financial Services"
         },
         {
-          "url": "http://www.peachpubs.com",
+          "url": "https://www.peachpubs.com",
           "title": "Peach Pubs"
         },
         {
-          "url": "http://www.retailthinktank.co.uk",
+          "url": "https://www.retailthinktank.co.uk",
           "title": "Retail think tank"
         }
       ]

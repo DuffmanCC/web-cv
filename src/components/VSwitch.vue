@@ -2,27 +2,27 @@
   <div class="flex items-en">
     <slot />
 
-    <button class="flex cursor-pointer items-center" @click="switchComponent" :aria-label="ariaLabel">
+    <button
+      class="flex cursor-pointer items-center"
+      @click="switchComponent"
+      :aria-label="ariaLabel"
+    >
       <div
         class="border-2 w-12 h-6 rounded-full flex mr-2 transition duration-200"
         :class="[
           switchValue
-          ? 'justify-end border-gray-500 bg-gray-500'
-          : 'justfy-start border-gray-300 bg-gray-300'
+            ? 'justify-end border-gray-500 bg-gray-500'
+            : 'justfy-start border-gray-300 bg-gray-300',
         ]"
       >
         <div
           class="h-5 w-5 bg-white rounded-full relative flex items-center justify-center"
-          :class="[
-            switchValue
-            ? '-right-px'
-            : '-left-px'
-          ]"
+          :class="[switchValue ? '-right-px' : '-left-px']"
         >
           <slot name="icon"></slot>
         </div>
       </div>
-    </button> 
+    </button>
   </div>
 </template>
 
@@ -32,13 +32,13 @@ export default {
 
   data() {
     return {
-      switchValue: this.value
-    }
+      switchValue: this.value,
+    };
   },
 
   props: {
     modelValue: Boolean,
-    ariaLabel: String
+    ariaLabel: String,
   },
   /**
    *
@@ -46,7 +46,7 @@ export default {
    *
    */
   model: {
-    event: 'click'
+    event: "click",
   },
 
   methods: {
@@ -58,12 +58,8 @@ export default {
        * @event click
        * @property {boolean}
        */
-      this.$emit('update:modelValue', this.switchValue);
-    }
-  }
+      this.$emit("update:modelValue", this.switchValue);
+    },
+  },
 };
-</script>
-
-<script setup>
-
 </script>

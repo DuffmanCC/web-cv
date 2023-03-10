@@ -66,6 +66,7 @@
       "tasks": [
         "- Diseño de la arquitectura, desarrollo y mantenimiento de la página web corporativa de la empresa.",
         "- Liderar el diseño y la implementación de nuevas características y funcionalidades para mejorar la experiencia de usuario.",
+        "- Definir standars y stack tecnológico con agencias para sitios externos.",
         "- Creación de bloques personalizados de Gutenberg basados en campos personalizados avanzados y Vue.js",
         "- Creación de un design system basado en <a href='https://storybook.js.org/' target='_blank' class='hover:underline text-blue-800 dark:text-blue-400'>Storybook</a> para optimizar y estandarizar todos los recursos front-end del sitio corporativo.",
         "- Creación de SPAs (single-page applications) y otros micros sitios basados en Vue.js y WordPress.",
@@ -132,15 +133,15 @@
       ],
       "projects": [
         {
-          "url": "http://www.vwfsfleet.co.uk",
+          "url": "https://www.vwfsfleet.co.uk",
           "title": "Volkswagen Financial Services"
         },
         {
-          "url": "http://www.peachpubs.com",
+          "url": "https://www.peachpubs.com",
           "title": "Peach Pubs"
         },
         {
-          "url": "http://www.retailthinktank.co.uk",
+          "url": "https://www.retailthinktank.co.uk",
           "title": "Retail think tank"
         }
       ]

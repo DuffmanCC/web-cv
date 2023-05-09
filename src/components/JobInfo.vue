@@ -7,9 +7,12 @@
         :href="job.url"
         target="_blank"
         class="hover:underline text-blue-800 dark:text-blue-400 cursor-pointer"
+        v-if="job.url"
       >
         {{ job.company }}
       </a>
+
+      <span v-else>{{ job.company }}</span>
       - {{ job.type }}
     </div>
 

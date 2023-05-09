@@ -1,6 +1,35 @@
 {
-  "profile": "<p class='mb-4'>Full Stack developer specialized in WordPress and single-page applications. I have developed a wide range of websites using the latest trends and frameworks. Skilled at writing efficient, scalable, and maintainable code using current best practices.</p><p class='mb-4'>Over the last 4 years, I've been leading the architecture and development of the corporate website of <a href='https://www.networkrail.co.uk' class='hover:underline text-blue-800 dark:text-blue-400'>Network Rail</a>, implementing new features and functionalities to enhance the user experience.</p><p class='mb-4'>I primarily focus on building WordPress sites and bringing the Laravel ecosystem into them with Tailwind CSS, Vue.js, ACF Blocks and headless approach.</p><p>Lately doing more React and Node.js stuff.</p>",
+  "profile": [
+    "Full Stack Developer with a specialization in WordPress and single-page applications. I have a proven track record of developing websites with the latest trends and frameworks, while adhering to industry-standard best practices.",
+
+    "Over the last 4 years, I've been leading the architecture and development of the corporate website of <a href='https://www.networkrail.co.uk' class='hover:underline text-blue-800 dark:text-blue-400'>Network Rail</a>, implementing new features and functionalities to enhance the user experience.",
+
+    "My primary focus is on building WordPress sites and integrating the Laravel ecosystem with Tailwind CSS, Vue.js, ACF Blocks, and a headless approach. Additionally, I have been exploring more complex React and Node.js projects, and I'm currently working with a startup to create an innovative ChatGPT tool.",
+
+    "With a keen eye for detail and a passion for delivering high-quality work, I am committed to producing efficient, scalable, and maintainable code that exceeds expectations."
+  ],
+
   "experience": [
+    {
+      "title": "Front End Developer",
+      "company": "Urchin Labs",
+      "type": "Contractor Part time",
+      "period": "April 2023 - present",
+      "place": "Full remote, Spain",
+      "intro": "Urchin Labs is a startup that is developing a ChatGPT tool to help businesses improve their customer service. The tool uses Natural Language Processing (NLP) techniques to understand customer queries and provide relevant answers. I am currently working on the development of a WordPress plugin that integrates the ChatGPT tool with the client's website.",
+      "tasks": [
+        "- Collaborated with the development team and stakeholders to identify the requirements and specifications for the Chatbot plugin.",
+        "- Designed the architecture and functionality of the plugin, including integrating ChatGPT and Pinecone vector database for efficient data retrieval.",
+        "- Integrated the plugin with the site's existing database, ensuring data security and privacy.",
+        "- Created a user-friendly interface for clients to interact with the Chatbot and receive relevant answers.",
+        "- Conducted extensive testing to ensure the plugin's reliability, scalability, and performance.",
+        "- Documented the plugin's technical specifications, including installation and usage instructions, for future reference.",
+        "- Provided technical support and maintenance to the Chatbot plugin to ensure its smooth functioning.",
+        "- Continuously updated the plugin's functionality and features to meet changing client needs and stay up-to-date with emerging technologies."
+      ],
+      "skills": ["WordPress", "Pinecone", "ChatGPT", "Docker"],
+      "projects": []
+    },
     {
       "title": "Front End Developer",
       "company": "CoVi Analytics",
@@ -8,7 +37,19 @@
       "type": "Contractor Full time",
       "period": "Jan 2023 - April 2023 | 3 months",
       "place": "Full remote, Spain",
-      "tasks": ["- App migration from Vue.js to React"],
+      "intro": "Covi Analytics is a data analytics company that provides businesses with powerful insights into their operations and customer behavior. Using advanced data analysis techniques, the company helps clients make data-driven decisions that improve their bottom line. My role was to migrate the company's existing web app from Vue.js to React, ensuring compatibility with existing APIs and features.",
+      "tasks": [
+        "- Analyzed the existing codebase of the web app to understand the functionality and architecture of the Vue application.",
+        "- Collaborated with the development team to plan the migration process and set achievable goals and milestones.",
+        "- Migrated the Vue components to React, ensuring compatibility with existing APIs and features.",
+        "- Refactored the existing codebase to optimize performance and improve maintainability.",
+        "- Implemented testing frameworks and tools to ensure the quality of the migrated application.",
+        "- Developed new features and functionalities in the migrated application to meet the client's requirements.",
+        "- Provided technical support to the development team during the migration process.",
+        "- Documented the migration process and created technical documentation for the migrated application.",
+        "- Conducted code reviews to ensure that the migrated codebase adheres to the best practices and coding standards.",
+        "- Conducted training sessions for the development team to transfer knowledge on React and ensure smooth maintenance of the migrated application."
+      ],
       "skills": [
         "Vue.js",
         "React",
@@ -16,7 +57,8 @@
         "Tailwindcss",
         "GraphQL",
         "Git",
-        "JWT"
+        "JWT",
+        "Vite"
       ],
       "projects": []
     },
@@ -27,9 +69,8 @@
       "type": "Contractor Full time",
       "period": "Jun 2022 - December 2022 | 7 months",
       "place": "Full remote, Spain",
-      "tasks": [
-        "- Worked on several projects for WordPress sites. Responsibilities included implementing new features, fixing existing bugs, coordinating with other developers and project managers, improving code quality, improving technology stacks, and delivering the needs of our clients."
-      ],
+      "intro": "Totally Group is a digital agency that specializes in WordPress development. I worked on several projects for WordPress sites. Responsibilities included implementing new features, fixing existing bugs, coordinating with other developers and project managers, improving code quality, improving technology stacks, and delivering the needs of our clients.",
+      "tasks": [],
       "skills": [
         "jQuery",
         "Webpack",
@@ -63,6 +104,7 @@
       "type": "Full time",
       "period": "Feb 2018 - April 2022 | 4 years and 3 months",
       "place": "Milton Keynes, United Kingdom",
+      "intro": "Network Rail is the owner and infrastructure manager of most of the railway network in Great Britain. I worked on several projects for the company's internal systems mainly leading the development of the new corporate website and giving some guidance to other teams and agencies.",
       "tasks": [
         "- Design the architecture, development, and maintenance of the corporate website of the company.",
         "- Lead on the design and implementation of new features and functionality to enhance the user experience.",
@@ -109,6 +151,7 @@
       "type": "Full time",
       "period": "Nov 2015 - Nov 2017 | 2 years and 1 month",
       "place": "Milton Keynes, United Kingdom",
+      "intro": "Klood is a digital marketing agency based on Milton Keynes that specializes in inbound marketing.",
       "tasks": [
         "- Meeting with clients to discuss website designs and functions.",
         "- Creating custom plugins, themes, and functions for WordPress websites.",

@@ -7,11 +7,18 @@
         <div class="dark:bg-gray-900">
           <div class="lg:shadow-2xl xl:flex">
             <SideContent />
+
             <main class="xl:w-4/5 p-3 sm:p-8 dark:bg-gray-700 dark:text-white">
               <div id="profile">
                 <h2 class="text-2xl mb-4 font-bold">Profile</h2>
 
-                <div v-html="content.profile"></div>
+                <div class="flex flex-col gap-2">
+                  <p
+                    v-for="(paragraph, i) in content.profile"
+                    :key="i"
+                    v-html="paragraph"
+                  />
+                </div>
               </div>
 
               <hr class="mt-8 mb-12" />
@@ -21,6 +28,8 @@
 
                 <div v-for="(job, i) in content.experience" :key="i">
                   <JobInfo :job="job" />
+
+                  <p class="mb-4" v-if="job.intro" v-text="job.intro"></p>
 
                   <JobTasks :tasks="job.tasks" />
 
@@ -46,13 +55,13 @@
 </template>
 
 <script>
-import SideContent from "./components/SideContent.vue";
+import EducationContent from "./components/EducationContent.vue";
 import HeaderContent from "./components/HeaderContent.vue";
 import JobInfo from "./components/JobInfo.vue";
 import JobProjects from "./components/JobProjects.vue";
 import JobSkills from "./components/JobSkills.vue";
 import JobTasks from "./components/JobTasks.vue";
-import EducationContent from "./components/EducationContent.vue";
+import SideContent from "./components/SideContent.vue";
 import contentEn from "./data/en.json";
 import contentEs from "./data/es.json";
 

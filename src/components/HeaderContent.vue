@@ -10,7 +10,7 @@
         </template>
       </VSwitch>
 
-      <VSwitch v-model="spanish" ariaLabel="change language">
+      <!-- <VSwitch v-model="spanish" ariaLabel="change language">
         <span class="mr-2 dark:text-white">Language:</span>
 
         <template v-slot:icon>
@@ -19,7 +19,7 @@
             v-text="spanish ? 'ES' : 'EN'"
           ></span>
         </template>
-      </VSwitch>
+      </VSwitch> -->
     </div>
   </header>
 </template>

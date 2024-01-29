@@ -1,12 +1,10 @@
 {
   "profile": [
-    "Full Stack Developer with a specialization in WordPress and single-page applications. I have a proven track record of developing websites with the latest trends and frameworks, while adhering to industry-standard best practices.",
+    "Experienced Full Stack Developer with a specialized focus on WordPress and single-page applications. With a successful track record spanning over 4 years, I have led the architecture and development of the corporate website for <a href='https://www.networkrail.co.uk' class='hover:underline text-blue-800 dark:text-blue-400'>Network Rail</a>, consistently introducing new features and functionalities to elevate user experience.",
 
-    "Over the last 4 years, I've been leading the architecture and development of the corporate website of <a href='https://www.networkrail.co.uk' class='hover:underline text-blue-800 dark:text-blue-400'>Network Rail</a>, implementing new features and functionalities to enhance the user experience.",
+    "In addition to providing guidance to other teams and agencies, I am deeply involved in integrating the Laravel ecosystem with Tailwind CSS, Vue.js, ACF Blocks, and adopting a headless approach with React and Next.js. Currently, I am collaborating with a startup on an innovative ChatGPT tool.",
 
-    "My primary focus is on building WordPress sites and integrating the Laravel ecosystem with Tailwind CSS, Vue.js, ACF Blocks, and a headless approach. Additionally, I have been exploring more complex React and Node.js projects, and I'm currently working with a startup to create an innovative ChatGPT tool.",
-
-    "With a keen eye for detail and a passion for delivering high-quality work, I am committed to producing efficient, scalable, and maintainable code that exceeds expectations."
+    "My commitment lies in delivering high-quality work with a keen eye for detail. I am dedicated to producing efficient, scalable, and maintainable code that not only meets but exceeds expectations."
   ],
 
   "experience": [
@@ -25,7 +23,8 @@
         "- Conducted extensive testing to ensure the plugin's reliability, scalability, and performance.",
         "- Documented the plugin's technical specifications, including installation and usage instructions, for future reference.",
         "- Provided technical support and maintenance to the Chatbot plugin to ensure its smooth functioning.",
-        "- Continuously updated the plugin's functionality and features to meet changing client needs and stay up-to-date with emerging technologies."
+        "- Continuously updated the plugin's functionality and features to meet changing client needs and stay up-to-date with emerging technologies.",
+        "- Creating the main site with headless WordPress and Next.js to provide a better user experience."
       ],
       "skills": ["WordPress", "Pinecone", "ChatGPT", "Docker"],
       "projects": []

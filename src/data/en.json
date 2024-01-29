@@ -26,7 +26,17 @@
         "- Continuously updated the plugin's functionality and features to meet changing client needs and stay up-to-date with emerging technologies.",
         "- Creating the main site with headless WordPress and Next.js to provide a better user experience."
       ],
-      "skills": ["WordPress", "Pinecone", "ChatGPT", "Docker"],
+      "skills": [
+        "WordPress",
+        "Pinecone",
+        "ChatGPT",
+        "Docker",
+        "Vue.js",
+        "React",
+        "Next.js",
+        "Tailwindcss",
+        "GraphQL"
+      ],
       "projects": []
     },
     {

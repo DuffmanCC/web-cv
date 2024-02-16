@@ -1,6 +1,6 @@
 <template>
-  <div class="mb-4">
-    <h3 class="font-bold text-xl">{{ job.title }}</h3>
+  <div class="mb-4 print:mb-8 flex flex-col gap-0 print:gap-2">
+    <h3 class="font-bold text-xl print:text-3xl">{{ job.title }}</h3>
 
     <div class="font-bold">
       <a

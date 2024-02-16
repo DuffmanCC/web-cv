@@ -1,24 +1,24 @@
 <template>
   <aside
-    class="xl:w-1/5 p-3 sm:py-8 sm:px-8 xl:px-4 bg-gray-300 dark:bg-gray-500 dark:text-white"
+    class="xl:w-1/5 print:w-1/4 p-3 sm:py-8 sm:px-8 xl:px-4 bg-gray-300 dark:bg-gray-500 dark:text-white"
   >
-    <div class="px-2 mb-6 text-center">
-      <h1 class="text-2xl">Carlos Ortiz</h1>
+    <div class="px-2 mb-6">
+      <h1 class="text-4xl font-bold">Carlos Ortiz</h1>
 
-      <p class="text-4xl xl:text-xl font-bold">Full Stack Developer</p>
+      <p class="text-3xl xl:text-xl print:text-2xl">Full Stack Developer</p>
     </div>
 
-    <div class="flex justify-start xl:flex-col">
+    <div class="flex justify-start xl:flex-col print:flex-col">
       <div class="font-light text-lg px-2 mb-6 mr-4">
-        <h2 class="text-xl font-bold mb-3">Contact</h2>
+        <h2 class="text-xl print:text-3xl font-bold mb-3">Contact</h2>
 
-        <div>
+        <div class="print:text-xl">
           <span class="cursor-pointer font-icon icon-envelope mr-2"></span>
 
           <a href="mailto:carlosor@gmail.com">carlosor@gmail.com</a>
         </div>
 
-        <div>
+        <div class="print:text-xl">
           <span class="cursor-pointer font-icon icon-phone mr-2"></span>
 
           <a href="tel:+44 7592 238 443">+44 7592 238 443</a>
@@ -48,15 +48,15 @@
       </div>
 
       <div class="font-light text-lg px-2 mb-6">
-        <h2 class="text-xl font-bold mb-3">Languages</h2>
+        <h2 class="text-xl print:text-3xl font-bold mb-3">Languages</h2>
 
-        <h3 class="text-lg">Spanish</h3>
+        <h3 class="text-lg print:text-2xl">Spanish</h3>
 
-        <p class="text-sm italic">Native</p>
+        <p class="text-sm print:text-xl italic">Native</p>
 
-        <h3 class="text-lg">English</h3>
+        <h3 class="text-lg print:text-2xl">English</h3>
 
-        <p class="text-sm italic">Fluent</p>
+        <p class="text-sm print:text-xl italic">Fluent</p>
       </div>
     </div>
   </aside>

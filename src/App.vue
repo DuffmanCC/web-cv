@@ -5,14 +5,16 @@
         <HeaderContent @handle-switchers="handleSwitchers" />
 
         <div class="dark:bg-gray-900">
-          <div class="lg:shadow-2xl xl:flex">
+          <div class="xl:shadow-2xl xl:flex print:flex">
             <SideContent />
 
-            <main class="xl:w-4/5 p-3 sm:p-8 dark:bg-gray-700 dark:text-white">
+            <main
+              class="xl:w-4/5 print:3/4 p-3 sm:p-8 dark:bg-gray-700 dark:text-white"
+            >
               <div id="profile">
-                <h2 class="text-2xl mb-4 font-bold">Profile</h2>
+                <h2 class="text-2xl mb-4 font-bold print:text-4xl">Profile</h2>
 
-                <div class="flex flex-col gap-2">
+                <div class="flex flex-col gap-2 print:text-2xl">
                   <p
                     v-for="(paragraph, i) in content.profile"
                     :key="i"
@@ -23,10 +25,16 @@
 
               <hr class="mt-8 mb-12" />
 
-              <div id="experience">
-                <h2 class="text-2xl mb-4 font-bold">Experience</h2>
+              <div id="experience" class="mb-8">
+                <h2 class="text-2xl mb-4 font-bold print:text-4xl">
+                  Experience
+                </h2>
 
-                <div v-for="(job, i) in content.experience" :key="i">
+                <div
+                  v-for="(job, i) in content.experience"
+                  :key="i"
+                  class="print:text-2xl"
+                >
                   <JobInfo :job="job" />
 
                   <p class="mb-4" v-if="job.intro" v-text="job.intro"></p>
@@ -37,7 +45,13 @@
 
                   <JobProjects :projects="job.projects" />
 
-                  <hr class="mt-8 mb-8" />
+                  <hr
+                    class="my-4 print:my-16"
+                    :class="{
+                      'break-before-page print:py-12':
+                        i === 0 || i === 2 || i === 4,
+                    }"
+                  />
                 </div>
               </div>
 
@@ -46,8 +60,10 @@
           </div>
         </div>
 
-        <footer class="p-4 lg:px-0 border-b dark:bg-gray-900 dark:text-white">
-          Copyright © <time datetime="2023">2023</time> Carlos Ortiz
+        <footer
+          class="p-3 sm:p-8 xl:px-0 border-b dark:bg-gray-700 xl:dark:bg-gray-900 dark:text-white print:hidden"
+        >
+          <time datetime="2024">2024</time> - Carlos Ortiz
         </footer>
       </div>
     </div>

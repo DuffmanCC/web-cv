@@ -9,7 +9,7 @@
 
   "experience": [
     {
-      "title": "Front End Developer",
+      "title": "Full Stack Developer",
       "company": "Urchin Labs",
       "type": "Contractor Part time",
       "period": "April 2023 - present",
@@ -158,7 +158,7 @@
       "company": "Klood Ltd",
       "url": "https://www.klood.com/",
       "type": "Full time",
-      "period": "Nov 2015 - Nov 2017 | 2 years and 1 month",
+      "period": "Nov 2015 - Nov 2017 | 2 years",
       "place": "Milton Keynes, United Kingdom",
       "intro": "Klood is a digital marketing agency based on Milton Keynes that specializes in inbound marketing.",
       "tasks": [
@@ -197,6 +197,17 @@
           "title": "Retail think tank"
         }
       ]
+    },
+    {
+      "title": "Web Developer",
+      "company": "Freelance",
+      "type": "Full time",
+      "period": "Oct 2013 - Oct 2015 | 2 years",
+      "place": "Canterbury (UK) and Cáceres (Spain)",
+      "intro": "Starting my career as web developer. I worked on several small projects for different clients.",
+      "tasks": [],
+      "skills": [],
+      "projects": []
     }
   ]
 }

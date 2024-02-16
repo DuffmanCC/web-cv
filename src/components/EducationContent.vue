@@ -1,8 +1,8 @@
 <template>
   <div id="education">
-    <h2 class="text-2xl mb-4 font-bold">Education</h2>
+    <h2 class="text-2xl mb-4 font-bold print:text-4xl">Education</h2>
 
-    <h3 class="font-bold text-xl">Arquitectura Técnica</h3>
+    <h3 class="font-bold text-xl print:text-3xl">Arquitectura Técnica</h3>
 
     <div class="font-bold">
       <a

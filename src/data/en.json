@@ -136,7 +136,9 @@
         "Sage",
         "WP Engine",
         "OAuth",
-        "JWT"
+        "JWT",
+        "Algolia",
+        "Docker"
       ],
       "projects": [
         {

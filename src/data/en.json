@@ -14,7 +14,7 @@
       "type": "Contractor Part time",
       "period": "April 2023 - present",
       "place": "Full remote, Spain",
-      "intro": "Urchin Labs is a startup that is developing a ChatGPT tool to help businesses improve their customer service. The tool uses Natural Language Processing (NLP) techniques to understand customer queries and provide relevant answers. I am currently working on the development of a WordPress plugin that integrates the ChatGPT tool with the client's website.",
+      "intro": "Urchin Labs is a startup that is developing a ChatGPT tool to help businesses improve their customer service. The tool uses Natural Language Processing (NLP) techniques to understand customer queries and provide relevant answers. I am currently working on the development of a WordPress plugin that integrates the ChatGPT tool with the client's website, specifically tailored for sites utilizing WooCommerce, enhancing the e-commerce experience with advanced conversational capabilities.",
       "tasks": [
         "- Collaborated with the development team and stakeholders to identify the requirements and specifications for the Chatbot plugin.",
         "- Designed the architecture and functionality of the plugin, including integrating ChatGPT and Pinecone vector database for efficient data retrieval.",
@@ -22,8 +22,6 @@
         "- Created a user-friendly interface for clients to interact with the Chatbot and receive relevant answers.",
         "- Conducted extensive testing to ensure the plugin's reliability, scalability, and performance.",
         "- Documented the plugin's technical specifications, including installation and usage instructions, for future reference.",
-        "- Provided technical support and maintenance to the Chatbot plugin to ensure its smooth functioning.",
-        "- Continuously updated the plugin's functionality and features to meet changing client needs and stay up-to-date with emerging technologies.",
         "- Creating the main site with headless WordPress and Next.js to provide a better user experience."
       ],
       "skills": [
@@ -32,10 +30,11 @@
         "ChatGPT",
         "Docker",
         "Vue.js 3",
-        "React",
-        "Next.js",
+        "React 18",
+        "Next.js 14",
         "Tailwind CSS",
-        "GraphQL"
+        "GraphQL",
+        "WooCommerce"
       ],
       "projects": []
     },

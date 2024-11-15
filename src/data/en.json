@@ -1,18 +1,45 @@
 {
   "profile": [
-    "Experienced Full Stack Developer with a specialized focus on WordPress and single-page applications. With a successful track record spanning over 4 years, I have led the architecture and development of the corporate website for <a href='https://www.networkrail.co.uk' class='hover:underline text-blue-800 dark:text-blue-400'>Network Rail</a>, consistently introducing new features and functionalities to elevate user experience.",
+    "Experienced Front-End Developer with a strong focus on React, Vue and modern UI development. With over 10 years of proven experience, I specialize in crafting scalable, maintainable, and intuitive user interfaces that enhance user experience across diverse applications.",
 
-    "In addition to providing guidance to other teams and agencies, I am deeply involved in integrating the Laravel ecosystem with Tailwind CSS, Vue.js, ACF Blocks, and adopting a headless approach with React and Next.js. Currently, I am collaborating with a startup on an innovative ChatGPT tool.",
+    "I have successfully led front-end architecture projects, including the corporate website for <a href='https://www.networkrail.co.uk' class='hover:underline text-blue-800 dark:text-blue-400'>Network Rail</a>, where I introduced innovative features and design systems. Currently, I am the Lead Front-End Engineer at FlowArchitect, driving the development of AI-powered workflow applications using React and related technologies.",
 
-    "My commitment lies in delivering high-quality work with a keen eye for detail. I am dedicated to producing efficient, scalable, and maintainable code that not only meets but exceeds expectations."
+    "My expertise spans a wide range of tools and frameworks. My approach focuses on delivering efficient, reusable, and high-quality solutions, ensuring technical excellence and user satisfaction."
   ],
 
   "experience": [
     {
+      "title": "Lead Frontend Engeneer",
+      "company": "FlowArchitect",
+      "type": "Contractor Part time",
+      "period": "August 2024 - Present",
+      "place": "Part time remote, Spain",
+      "intro": "As a front-end lead at FlowArchitect, I contribute to building seamless workflow applications that empower developers and businesses to integrate AI effortlessly into their operations. Our mission is to simplify complex processes through open-source, scalable, and flexible solutions, making AI accessible and fostering innovation in intelligent applications.",
+      "tasks": [
+        "- Leading the development of front-end architecture for AI-driven workflow applications.",
+        "- Designing and implementing scalable, maintainable, and reusable UI components using modern frameworks such as React.",
+        "- Collaborating with cross-functional teams to translate business requirements into intuitive and efficient user interfaces.",
+        "- Integrating APIs and AI tools seamlessly into front-end workflows to deliver intelligent application solutions.",
+        "- Mentoring junior developers and fostering a collaborative, high-performing engineering culture.",
+        "- Conducting code reviews to maintain high standards of quality and technical excellence.",
+        "- Working with the product team to prototype and refine new features based on user feedback.",
+        "- Implementing automated testing strategies to ensure the reliability and robustness of front-end components."
+      ],
+      "skills": [
+        "Rete.js",
+        "React",
+        "Astro",
+        "Tailwind CSS",
+        "Vitest",
+        "Playwright"
+      ],
+      "projects": []
+    },
+    {
       "title": "Full Stack Developer",
       "company": "Urchin Labs",
       "type": "Contractor Part time",
-      "period": "April 2023 - present",
+      "period": "April 2023 - Feb 2024 | 10 months",
       "place": "Full remote, Spain",
       "intro": "Urchin Labs is a startup that is developing a ChatGPT tool to help businesses improve their customer service. The tool uses Natural Language Processing (NLP) techniques to understand customer queries and provide relevant answers. I am currently working on the development of a WordPress plugin that integrates the ChatGPT tool with the client's website, specifically tailored for sites utilizing WooCommerce, enhancing the e-commerce experience with advanced conversational capabilities.",
       "tasks": [
@@ -34,7 +61,9 @@
         "Next.js 14",
         "Tailwind CSS",
         "GraphQL",
-        "WooCommerce"
+        "WooCommerce",
+        "Vitest",
+        "Playwright"
       ],
       "projects": []
     },

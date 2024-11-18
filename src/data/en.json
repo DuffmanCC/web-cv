@@ -13,7 +13,7 @@
       "company": "FlowArchitect",
       "type": "Contractor Part time",
       "period": "September 2024 - Present",
-      "place": "Part time remote, Spain",
+      "place": "Full remote, Spain",
       "intro": "As a front-end lead at FlowArchitect, I contribute to building seamless workflow applications that empower developers and businesses to integrate AI effortlessly into their operations. Our mission is to simplify complex processes through open-source, scalable, and flexible solutions, making AI accessible and fostering innovation in intelligent applications.",
       "tasks": [
         "- Leading the development of front-end architecture for AI-driven workflow applications.",
@@ -52,6 +52,37 @@
       ],
       "skills": ["Vue.js", "TypeScript", "Tailwind CSS", "Git", "Vite"],
       "projects": []
+    },
+    {
+      "title": "Full Stack Developer",
+      "company": "Personal project",
+      "type": "Personal project",
+      "period": "Feb 2024 - Present",
+      "place": "Full remote, Spain",
+      "intro": "Personal project to create a platform to help people to find the best workout for them. The platform will be based on a PWA and will use AI to help users to find the best workout for them.",
+      "tasks": [
+        "- Design the architecture, development, and maintenance of the platform.",
+        "- Define standards and tech stack based on a Laravel API and a Preact frontend over Astro.",
+        "- Testing front-end code in multiple browsers to ensure cross-browser compatibility with Vitest and Playwright.",
+        "- Testing back-end code to ensure the reliability and robustness of the API with Pest.",
+        "- Managing servers and database to ensure optimal performance."
+      ],
+      "skills": [
+        "Preact",
+        "TypeScript",
+        "Astro",
+        "Tailwind CSS",
+        "Vitest",
+        "Playwright",
+        "Laravel",
+        "Pest"
+      ],
+      "projects": [
+        {
+          "url": "https://www.wod.coach/",
+          "title": "Wod Coach"
+        }
+      ]
     },
     {
       "title": "Full Stack Developer",

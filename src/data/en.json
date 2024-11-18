@@ -55,11 +55,12 @@
     },
     {
       "title": "Full Stack Developer",
-      "company": "Personal project",
+      "company": "Wod Coach",
+      "url": "https://www.wod.coach/",
       "type": "Personal project",
       "period": "Feb 2024 - Present",
       "place": "Full remote, Spain",
-      "intro": "Personal project to create a platform to help people to find the best workout for them. The platform will be based on a PWA and will use AI to help users to find the best workout for them.",
+      "intro": "Personal project to create a platform to help people to generate the best workout for them.",
       "tasks": [
         "- Design the architecture, development, and maintenance of the platform.",
         "- Define standards and tech stack based on a Laravel API and a Preact frontend over Astro.",
@@ -76,12 +77,6 @@
         "Playwright",
         "Laravel",
         "Pest"
-      ],
-      "projects": [
-        {
-          "url": "https://www.wod.coach/",
-          "title": "Wod Coach"
-        }
       ]
     },
     {

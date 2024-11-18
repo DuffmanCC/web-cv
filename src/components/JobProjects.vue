@@ -1,5 +1,5 @@
 <template>
-  <div v-if="projects.length > 0">
+  <div v-if="projects && projects.length > 0">
     <h3 class="text-xl">Some Projects</h3>
 
     <ul>

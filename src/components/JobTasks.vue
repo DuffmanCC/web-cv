@@ -1,5 +1,5 @@
 <template>
-  <div class="mb-6" v-if="tasks.length > 0">
+  <div class="mb-6" v-if="tasks && tasks.length > 0">
     <ul class="list-none">
       <li v-for="(task, i) in tasks" :key="i" v-html="task"></li>
     </ul>

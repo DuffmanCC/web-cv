@@ -49,7 +49,7 @@
                     class="my-4 print:my-16"
                     :class="{
                       'break-before-page print:py-12':
-                        i === 0 || i === 2 || i === 4,
+                        i === 0 || i === 2 || i === 4 || i === 6,
                     }"
                   />
                 </div>
@@ -79,7 +79,6 @@ import JobSkills from "./components/JobSkills.vue";
 import JobTasks from "./components/JobTasks.vue";
 import SideContent from "./components/SideContent.vue";
 import contentEn from "./data/en.json";
-import contentEs from "./data/es.json";
 
 export default {
   name: "App",
@@ -97,24 +96,18 @@ export default {
   data() {
     return {
       darkMode: false,
-      spanish: false,
     };
   },
 
   computed: {
     content() {
-      if (this.spanish === true) {
-        return contentEs;
-      }
-
       return contentEn;
     },
   },
 
   methods: {
-    handleSwitchers({ darkMode, spanish }) {
+    handleSwitchers({ darkMode }) {
       this.darkMode = darkMode;
-      this.spanish = spanish;
     },
   },
 
@@ -126,6 +119,11 @@ export default {
     meta.content =
       "Experienced Front-End Developer | React, Vue & Modern UI Specialist";
     document.getElementsByTagName("head")[0].appendChild(meta);
+
+    // Add console logs to check the content
+    console.log("Content:", this.content);
+    console.log("Profile:", this.content.profile);
+    console.log("Experience:", this.content.experience);
   },
 };
 </script>

@@ -2,7 +2,9 @@
   "profile": [
     "Experienced Front-End Developer with a strong focus on React, Vue and modern UI development. With over 10 years of proven experience, I specialize in crafting scalable, maintainable, and intuitive user interfaces that enhance user experience across diverse applications.",
 
-    "I have successfully led front-end architecture projects, including the corporate website for <a href='https://www.networkrail.co.uk' class='hover:underline text-blue-800 dark:text-blue-400'>Network Rail</a>, where I introduced innovative features and design systems. Currently, I am the Lead Front-End Engineer at FlowArchitect, driving the development of AI-powered workflow applications using React and related technologies.",
+    "I have successfully led front-end and back-end architecture projects, including the corporate website for <a href='https://www.networkrail.co.uk' class='hover:underline text-blue-800 dark:text-blue-400'>Network Rail</a>, where I introduced innovative features and design systems. Currently, I am the Lead Front-End Engineer at FlowArchitect, driving the development of AI-powered workflow applications using React and related technologies.",
+
+    "Although my current focus is on front-end development, I have extensive full-stack experience with PHP, particularly in building robust APIs and backend systems in Laravel, Symphony and WordPress",
 
     "My expertise spans a wide range of tools and frameworks. My approach focuses on delivering efficient, reusable, and high-quality solutions, ensuring technical excellence and user satisfaction."
   ],

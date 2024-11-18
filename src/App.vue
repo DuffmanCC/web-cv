@@ -124,16 +124,8 @@ export default {
     const meta = document.createElement("meta");
     meta.name = "description";
     meta.content =
-      "Full Stack developer specialized in WordPress and single-page applications. I have developed a wide range of websites using the latest trends and frameworks. Skilled at writing efficient, scalable, and maintainable code using current best practices.";
+      "Experienced Front-End Developer | React, Vue & Modern UI Specialist";
     document.getElementsByTagName("head")[0].appendChild(meta);
-  },
-
-  updated() {
-    const description = this.spanish
-      ? "Full Stack developer especializado en WordPress y aplicaciones de una sola página. He desarrollado una amplia gama de sitios web utilizando las últimas tendencias y frameworks. Habilidad para escribir código eficiente, escalable y mantenible utilizando las mejores prácticas actuales."
-      : "Full Stack developer specialized in WordPress and single-page applications. I have developed a wide range of websites using the latest trends and frameworks. Skilled at writing efficient, scalable, and maintainable code using current best practices.";
-
-    document.querySelector('meta[name="description"]').content = description;
   },
 };
 </script>

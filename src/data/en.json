@@ -12,15 +12,16 @@
       "title": "Lead Frontend Engeneer",
       "company": "FlowArchitect",
       "type": "Contractor Part time",
-      "period": "August 2024 - Present",
+      "period": "September 2024 - Present",
       "place": "Part time remote, Spain",
       "intro": "As a front-end lead at FlowArchitect, I contribute to building seamless workflow applications that empower developers and businesses to integrate AI effortlessly into their operations. Our mission is to simplify complex processes through open-source, scalable, and flexible solutions, making AI accessible and fostering innovation in intelligent applications.",
       "tasks": [
         "- Leading the development of front-end architecture for AI-driven workflow applications.",
+        "- Defining the technical roadmap and architecture for the design workflow project.",
         "- Designing and implementing scalable, maintainable, and reusable UI components using modern frameworks such as React.",
         "- Collaborating with cross-functional teams to translate business requirements into intuitive and efficient user interfaces.",
         "- Integrating APIs and AI tools seamlessly into front-end workflows to deliver intelligent application solutions.",
-        "- Mentoring junior developers and fostering a collaborative, high-performing engineering culture.",
+        "- Leading developers and providing guidance to team members, fostering a collaborative and high-performing engineering culture.",
         "- Conducting code reviews to maintain high standards of quality and technical excellence.",
         "- Working with the product team to prototype and refine new features based on user feedback.",
         "- Implementing automated testing strategies to ensure the reliability and robustness of front-end components."
@@ -33,6 +34,23 @@
         "Vitest",
         "Playwright"
       ],
+      "projects": []
+    },
+    {
+      "title": "Front End Developer",
+      "company": "CoVi Analytics",
+      "url": "https://www.covianalytics.com/",
+      "type": "Contractor Part time",
+      "period": "August 2024 - September 2024 | 2 months",
+      "place": "Full remote, Spain",
+      "intro": "Covi Analytics is a data analytics company that provides businesses with powerful insights into their operations and customer behavior. Building on my previous work from several months ago, this time I focused on improving its core 2 product by working with Vue and TypeScript.",
+      "tasks": [
+        "- Analyzed the existing codebase of the web app to understand the functionality and architecture of the Vue application.",
+        "- Collaborated with the development team to plan the migration process and set achievable goals and milestones.",
+        "- Adding TypeScript to the project to improve the codebase.",
+        "- Refactored the existing codebase to optimize performance and improve maintainability."
+      ],
+      "skills": ["Vue.js", "TypeScript", "Tailwind CSS", "Git", "Vite"],
       "projects": []
     },
     {
@@ -56,9 +74,9 @@
         "Pinecone",
         "ChatGPT",
         "Docker",
-        "Vue.js 3",
-        "React 18",
-        "Next.js 14",
+        "Vue.js",
+        "React",
+        "Next.js",
         "Tailwind CSS",
         "GraphQL",
         "WooCommerce",

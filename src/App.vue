@@ -55,6 +55,37 @@
                 </div>
               </div>
 
+              <div class="mb-8">
+                <h2 class="text-2xl mb-4 font-bold print:text-4xl">
+                  Other projects
+                </h2>
+
+                <ul>
+                  <li>
+                    <a
+                      href="https://networkrail-jobs.vercel.app/"
+                      target="_blank"
+                      class="hover:underline text-blue-800 dark:text-blue-400"
+                      >Network Rail jobs</a
+                    >
+                    -
+                    <a
+                      href="https://github.com/DuffmanCC/networkrail-jobs"
+                      target="_blank"
+                      class="hover:underline text-blue-800 dark:text-blue-400"
+                      >GitHub</a
+                    >: Getting familiar with the new app router in NextJS and
+
+                    <a
+                      href="https://nextui.org/"
+                      target="_blank"
+                      class="hover:underline text-blue-800 dark:text-blue-400"
+                      >NextUI</a
+                    >
+                  </li>
+                </ul>
+              </div>
+
               <EducationContent />
             </main>
           </div>

@@ -94,7 +94,11 @@
         <footer
           class="p-3 sm:p-8 xl:px-0 border-b dark:bg-gray-700 xl:dark:bg-gray-900 dark:text-white print:hidden"
         >
-          <time datetime="2024">2024</time> - Carlos Ortiz
+          Carlos Ortiz -
+          <small
+            >Last updated on
+            <time datetime="2024-01-01">January 2, 2025</time></small
+          >
         </footer>
       </div>
     </div>

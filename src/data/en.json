@@ -114,38 +114,6 @@
       "projects": []
     },
     {
-      "title": "Front End Developer",
-      "company": "CoVi Analytics",
-      "url": "https://www.covianalytics.com/",
-      "type": "Contractor Full time",
-      "period": "Jan 2023 - April 2023 | 3 months",
-      "place": "Full remote, Spain",
-      "intro": "Covi Analytics is a data analytics company that provides businesses with powerful insights into their operations and customer behavior. Using advanced data analysis techniques, the company helps clients make data-driven decisions that improve their bottom line. My role was to migrate the company's existing web app from Vue.js to React, ensuring compatibility with existing APIs and features.",
-      "tasks": [
-        "- Analyzed the existing codebase of the web app to understand the functionality and architecture of the Vue application.",
-        "- Collaborated with the development team to plan the migration process and set achievable goals and milestones.",
-        "- Migrated the Vue components to React, ensuring compatibility with existing APIs and features.",
-        "- Refactored the existing codebase to optimize performance and improve maintainability.",
-        "- Implemented testing frameworks and tools to ensure the quality of the migrated application.",
-        "- Developed new features and functionalities in the migrated application to meet the client's requirements.",
-        "- Provided technical support to the development team during the migration process.",
-        "- Documented the migration process and created technical documentation for the migrated application.",
-        "- Conducted code reviews to ensure that the migrated codebase adheres to the best practices and coding standards.",
-        "- Conducted training sessions for the development team to transfer knowledge on React and ensure smooth maintenance of the migrated application."
-      ],
-      "skills": [
-        "Vue.js",
-        "React",
-        "TypeScript",
-        "Tailwind CSS",
-        "GraphQL",
-        "Git",
-        "JWT",
-        "Vite"
-      ],
-      "projects": []
-    },
-    {
       "title": "WordPress Developer",
       "company": "Totally Group",
       "url": "https://totally.tech/",

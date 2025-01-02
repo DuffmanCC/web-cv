@@ -150,11 +150,6 @@ export default {
     meta.content =
       "Experienced Front-End Developer | React, Vue & Modern UI Specialist";
     document.getElementsByTagName("head")[0].appendChild(meta);
-
-    // Add console logs to check the content
-    console.log("Content:", this.content);
-    console.log("Profile:", this.content.profile);
-    console.log("Experience:", this.content.experience);
   },
 };
 </script>

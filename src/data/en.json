@@ -1,12 +1,10 @@
 {
   "profile": [
-    "Experienced Front-End Developer with a strong focus on React, Vue and modern UI development. With over 10 years of proven experience, I specialize in crafting scalable, maintainable, and intuitive user interfaces that enhance user experience across diverse applications.",
+    "Experienced Front-End Developer with a strong focus on React, Vue, and modern UI development. With over 10 years of proven experience, I specialize in crafting scalable, maintainable, and intuitive user interfaces that enhance user experience across diverse applications.",
 
-    "I have successfully led front-end and back-end architecture projects, including the corporate website for <a href='https://www.networkrail.co.uk' class='hover:underline text-blue-800 dark:text-blue-400'>Network Rail</a>, where I introduced innovative features and design systems. Currently, I am the Lead Front-End Engineer at FlowArchitect, driving the development of AI-powered workflow applications using React and related technologies.",
+    "I have successfully led front-end and back-end architecture projects, including leading the development of the Digital, Social Media, and Film department of <a href='https://www.networkrail.co.uk' class='underline font-bold text-blue-600 dark:text-blue-400'>Network Rail</a>, where I introduced a design system. Currently, I am the Lead Front-End Engineer at FlowArchitect, driving the development of AI-powered workflow applications using React and related technologies.",
 
-    "While my current focus is front-end development, I bring extensive full-stack experience, particularly in building robust APIs and backend systems using PHP frameworks like Laravel, Symfony, and WordPress, as well as integrating vector databases (e.g., Pinecone) and working with AI tools such as the ChatGPT API.",
-
-    "My expertise spans a wide range of tools and frameworks. My approach focuses on delivering efficient, reusable, and high-quality solutions, ensuring technical excellence and user satisfaction."
+    "While my current focus is front-end development, I bring extensive full-stack experience, particularly in building robust APIs and back-end systems using PHP frameworks like WordPress, Laravel, and Symfony, as well as integrating vector databases (e.g., Pinecone) and working with AI tools such as the ChatGPT API."
   ],
 
   "experience": [
@@ -16,19 +14,20 @@
       "type": "Contractor Part time",
       "period": "September 2024 - Present",
       "place": "Full remote, Spain",
-      "intro": "As a front-end lead at FlowArchitect, I contribute to building seamless workflow applications that empower developers and businesses to integrate AI effortlessly into their operations. Our mission is to simplify complex processes through open-source, scalable, and flexible solutions, making AI accessible and fostering innovation in intelligent applications.",
+      "intro": "In FlowArchitect our mission our mission is to empower developers and businesses by transforming complex AI workflows into seamless, open-source solutions. We simplify AI integration through accessible, flexible, and scalable tools, enabling innovation and productivity across applications of all sizes.",
       "tasks": [
         "- Leading the development of front-end architecture for AI-driven workflow applications.",
-        "- Defining the technical roadmap and architecture for the design workflow project.",
-        "- Designing and implementing scalable, maintainable, and reusable UI components using modern frameworks such as React.",
+        "- Defining the technical roadmap and architecture for the Design Workflow project.",
+        "- Designing and implementing scalable, maintainable, and reusable UI components using React.",
+        "- Defining workflows than can be translated into the <a href='https://www.commonwl.org/' class='underline font-bold text-blue-600 dark:text-blue-400'>Common Workflow Language</a>.",
         "- Collaborating with cross-functional teams to translate business requirements into intuitive and efficient user interfaces.",
         "- Integrating APIs and AI tools seamlessly into front-end workflows to deliver intelligent application solutions.",
         "- Leading developers and providing guidance to team members, fostering a collaborative and high-performing engineering culture.",
         "- Conducting code reviews to maintain high standards of quality and technical excellence.",
-        "- Working with the product team to prototype and refine new features based on user feedback.",
         "- Implementing automated testing strategies to ensure the reliability and robustness of front-end components."
       ],
       "skills": [
+        "Common Workflow Language",
         "Rete.js",
         "React",
         "Astro",
@@ -45,14 +44,13 @@
       "type": "Contractor Part time",
       "period": "August 2024 - September 2024 | 2 months",
       "place": "Full remote, Spain",
-      "intro": "Covi Analytics is a data analytics company that provides businesses with powerful insights into their operations and customer behavior. Building on my previous work from several months ago, this time I focused on improving its core 2 product by working with Vue and TypeScript.",
+      "intro": "Covi Analytics is a data analytics company that empowers businesses with actionable insights into their operations and customer behavior.",
       "tasks": [
         "- Analyzed the existing codebase of the web app to understand the functionality and architecture of the Vue application.",
-        "- Collaborated with the development team to plan the migration process and set achievable goals and milestones.",
-        "- Adding TypeScript to the project to improve the codebase.",
+        "- Added TypeScript to the project to improve the codebase.",
         "- Refactored the existing codebase to optimize performance and improve maintainability."
       ],
-      "skills": ["Vue.js", "TypeScript", "Tailwind CSS", "Git", "Vite"],
+      "skills": ["Vue.js", "TypeScript", "Tailwind CSS"],
       "projects": []
     },
     {
@@ -62,13 +60,13 @@
       "type": "Personal project",
       "period": "Feb 2024 - Present",
       "place": "Full remote, Spain",
-      "intro": "Personal project to create a platform to help people to generate the best workout for them.",
+      "intro": "Personal project to create a platform that helps people generate the best workout tailored to their needs.",
       "tasks": [
-        "- Design the architecture, development, and maintenance of the platform.",
-        "- Define standards and tech stack based on a Laravel API and a Preact frontend over Astro.",
-        "- Testing front-end code in multiple browsers to ensure cross-browser compatibility with Vitest and Playwright.",
-        "- Testing back-end code to ensure the reliability and robustness of the API with Pest.",
-        "- Managing servers and database to ensure optimal performance."
+        "- Designed the architecture, development, and maintenance of the platform.",
+        "- Defined standards and tech stack, utilizing a Laravel API and a Preact front-end built on Astro",
+        "- Tested front-end code across multiple browsers to ensure cross-browser compatibility using Vitest and Playwright.",
+        "- Tested back-end code to ensure the API's reliability and robustness with Pest.",
+        "- Managed servers and databases to ensure optimal performance."
       ],
       "skills": [
         "Preact",
@@ -87,15 +85,14 @@
       "type": "Contractor Part time",
       "period": "April 2023 - Feb 2024 | 10 months",
       "place": "Full remote, Spain",
-      "intro": "Urchin Labs is a startup that is developing a ChatGPT tool to help businesses improve their customer service. The tool uses Natural Language Processing (NLP) techniques to understand customer queries and provide relevant answers. I am currently working on the development of a WordPress plugin that integrates the ChatGPT tool with the client's website, specifically tailored for sites utilizing WooCommerce, enhancing the e-commerce experience with advanced conversational capabilities.",
+      "intro": "Urchin Labs is a startup developing a ChatGPT tool to help businesses improve their customer service. The tool leverages Natural Language Processing (NLP) techniques to understand customer queries and provide relevant answers. I am currently working on the development of a WordPress plugin that integrates the ChatGPT tool with client's websites, specifically tailored for WooCommerce sites, enhancing the e-commerce experience with advanced conversational capabilities.",
       "tasks": [
-        "- Collaborated with the development team and stakeholders to identify the requirements and specifications for the Chatbot plugin.",
-        "- Designed the architecture and functionality of the plugin, including integrating ChatGPT and Pinecone vector database for efficient data retrieval.",
+        "- Designed the architecture and functionality of the plugin, integrating ChatGPT and Pinecone vector database for efficient data retrieval.",
         "- Integrated the plugin with the site's existing database, ensuring data security and privacy.",
-        "- Created a user-friendly interface for clients to interact with the Chatbot and receive relevant answers.",
+        "- Developed a user-friendly interface for clients to interact with the Chatbot and receive relevant answers.",
         "- Conducted extensive testing to ensure the plugin's reliability, scalability, and performance.",
         "- Documented the plugin's technical specifications, including installation and usage instructions, for future reference.",
-        "- Creating the main site with headless WordPress and Next.js to provide a better user experience."
+        "- Built the main site with headless WordPress and Next.js to deliver an enhanced user experience."
       ],
       "skills": [
         "WordPress",
@@ -121,7 +118,10 @@
       "period": "Jun 2022 - December 2022 | 7 months",
       "place": "Full remote, Spain",
       "intro": "Totally Group is a digital agency that specializes in WordPress development. I worked on several projects for WordPress sites. Responsibilities included implementing new features, fixing existing bugs, coordinating with other developers and project managers, improving code quality, improving technology stacks, and delivering the needs of our clients.",
-      "tasks": [],
+      "tasks": [
+        "- Developed custom WordPress themes and plugins for clients.",
+        "- Maintened and improved existing WordPress sites."
+      ],
       "skills": [
         "jQuery",
         "Webpack",
@@ -155,15 +155,15 @@
       "type": "Full time",
       "period": "Feb 2018 - April 2022 | 4 years and 3 months",
       "place": "Milton Keynes, United Kingdom",
-      "intro": "Network Rail is the owner and infrastructure manager of most of the railway network in Great Britain. I worked on several projects for the company's internal systems mainly leading the development of the new corporate website and giving some guidance to other teams and agencies.",
+      "intro": "Network Rail is the owner and infrastructure manager of most of the railway network in Great Britain. I worked on several projects for the company's internal systems, primarily leading the development of the new corporate website and providing guidance to other teams and agencies.",
       "tasks": [
-        "- Design the architecture, development, and maintenance of the corporate website of the company.",
-        "- Lead on the design and implementation of new features and functionality to enhance the user experience.",
-        "- Define standards and tech stack with other agencies and teams.",
-        "- Custom Gutenberg blocks creation based on Advanced Custom Fields and Vue.js.",
-        "- Creation of a design system based on <a href='https://storybook.js.org/' target='_blank' class='hover:underline text-blue-800 dark:text-blue-400'>Storybook</a> to manage all frontend resources of the corporate website.",
-        "- Creation of single-page applications and other microsites based on Vue.js.",
-        "- Monitor website performance and take appropriate action to ensure optimal performance."
+        "- Designed the architecture, development, and maintenance of the company's corporate website.",
+        "- Led the design and implementation of new features and functionality to enhance the user experience.",
+        "- Defined standards and tech stack in collaboration with other agencies and teams.",
+        "- Created custom Gutenberg blocks based on Advanced Custom Fields and Vue.js",
+        "- Developed a design system using <a href='https://storybook.js.org/' target='_blank' class='hover:underline text-blue-800 dark:text-blue-400'>Storybook</a> to manage all frontend resources of the corporate website.",
+        "- Created single-page applications and other microsites based on Vue.js",
+        "- Monitored website performance and took appropriate action to ensure optimal performance."
       ],
       "skills": [
         "Vue.js",
@@ -172,6 +172,8 @@
         "TypeScript",
         "Webpack",
         "Tailwind CSS",
+        "Storybook",
+        "Chromatic",
         "GraphQL",
         "Git",
         "Laravel",
@@ -204,16 +206,16 @@
       "type": "Full time",
       "period": "Nov 2015 - Nov 2017 | 2 years",
       "place": "Milton Keynes, United Kingdom",
-      "intro": "Klood is a digital marketing agency based on Milton Keynes that specializes in inbound marketing.",
+      "intro": "Klood is a digital marketing agency based in Milton Keynes that specializes in inbound marketing.",
       "tasks": [
-        "- Meeting with clients to discuss website designs and functions.",
-        "- Creating custom plugins, themes, and functions for WordPress websites.",
-        "- Testing front-end code in multiple browsers to ensure cross-browser compatibility.",
-        "- Working with multiple APIs and RESTful Services.",
-        "- Buildind reusable code and libraries for future use.",
-        "- Optimized pages for page speed using Google Page Speed (API) for Apache to obtain higher rankings on Search Engines (SEM).",
-        "- Front-end development using the latest HTML5 and CSS3 techniques, backed by jQuery to enable optimum user experience throughout the websites.",
-        "- Working in Agile methodology."
+        "- Met with clients to discuss website designs and functionality.",
+        "- Created custom plugins, themes, and functions for WordPress websites.",
+        "- Tested front-end code in multiple browsers to ensure cross-browser compatibility.",
+        "- Worked with multiple APIs and RESTful Services.",
+        "- Built reusable code and libraries for future use.",
+        "- Optimized pages for page speed using Google PageSpeed (API) for Apache to achieve higher rankings on Search Engines (SEM).",
+        "- Front-end development using the latest HTML5 and CSS3 techniques, enhanced by jQuery to enable optimum user experience throughout the websites.",
+        "- Worked in Agile methodology."
       ],
       "skills": [
         "jQuery",
@@ -248,7 +250,7 @@
       "type": "Full time",
       "period": "Oct 2013 - Oct 2015 | 2 years",
       "place": "Canterbury (UK) and Cáceres (Spain)",
-      "intro": "Starting my career as web developer. I worked on several small projects for different clients.",
+      "intro": "I started my career as a web developer and worked on several small projects for different clients",
       "tasks": [],
       "skills": [],
       "projects": []

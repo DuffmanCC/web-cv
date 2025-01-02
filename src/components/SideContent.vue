@@ -30,20 +30,45 @@
           <a href="tel:+44 7592 238 443">+34 630 20 87 07</a>
         </div>
 
-        <div class="text-2xl my-3">
+        <div class="text-2xl my-3 flex gap-2 items-center">
           <a
-            class="cursor-pointer font-icon icon-github mr-2"
+            class="font-icon icon-github mr-2"
             href="https://github.com/DuffmanCC"
             aria-label="github"
             target="_blank"
           ></a>
 
           <a
-            class="cursor-pointer font-icon icon-linkedin mr-2"
+            class="cursor-pointer font-icon icon-linkedin"
             href="https://www.linkedin.com/in/carlosortiz79/"
             aria-label="linkedin"
             target="_blank"
           ></a>
+
+          <a href="https://codepen.io/DuffmanCC/" target="_blank">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              aria-label="CodePen"
+              role="img"
+              viewBox="0 0 512 512"
+              class="w-6 h-6"
+            >
+              <rect width="512" height="512" rx="15%" fill="#4B5563" />
+
+              <g
+                fill="none"
+                stroke="#e6e6e6"
+                stroke-width="33"
+                stroke-linejoin="round"
+              >
+                <path d="M81 198v116l175 117 175-117V198L256 81z" />
+
+                <path d="M81 198l175 116 175-116M256 81v117" />
+
+                <path d="M81 314l175-116 175 116M256 431V314" />
+              </g>
+            </svg>
+          </a>
         </div>
       </div>
 

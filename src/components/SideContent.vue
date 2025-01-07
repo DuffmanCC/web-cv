@@ -1,6 +1,6 @@
 <template>
   <aside
-    class="xl:w-1/5 print:w-1/4 p-3 sm:py-8 sm:px-8 xl:px-4 bg-gray-300 dark:bg-gray-500 dark:text-white"
+    class="xl:w-1/5 p-3 sm:py-8 sm:px-8 xl:px-4 bg-gray-300 dark:bg-gray-500 dark:text-white print:w-full"
   >
     <div class="px-2 mb-6">
       <h1 class="text-4xl font-bold">Carlos Ortiz</h1>
@@ -8,7 +8,7 @@
       <p class="text-3xl xl:text-xl print:text-2xl">Full Stack Developer</p>
     </div>
 
-    <div class="flex justify-start xl:flex-col print:flex-col">
+    <div class="flex justify-start xl:flex-col print:flex">
       <div class="font-light text-lg px-2 mb-6 mr-4">
         <h2 class="text-xl print:text-3xl font-bold mb-3">Contact</h2>
 

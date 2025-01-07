@@ -5,11 +5,11 @@
         <HeaderContent @handle-switchers="handleSwitchers" />
 
         <div class="dark:bg-gray-900">
-          <div class="xl:shadow-2xl xl:flex print:flex">
+          <div class="xl:shadow-2xl xl:flex print:flex print:flex-col">
             <SideContent />
 
             <main
-              class="xl:w-4/5 print:3/4 p-3 sm:p-8 dark:bg-gray-700 dark:text-white"
+              class="xl:w-4/5 print:w-full p-3 sm:p-8 dark:bg-gray-700 dark:text-white"
             >
               <div id="profile">
                 <h2 class="text-2xl mb-4 font-bold print:text-4xl">Profile</h2>
@@ -49,7 +49,7 @@
                     class="my-4 print:my-16"
                     :class="{
                       'break-before-page print:py-12':
-                        i === 0 || i === 2 || i === 4 || i === 6,
+                        i === 0 || i === 3 || i === 5,
                     }"
                   />
                 </div>
@@ -97,7 +97,7 @@
           Carlos Ortiz -
           <small
             >Last updated on
-            <time datetime="2024-01-01">January 2, 2025</time></small
+            <time datetime="2024-01-01">January 7, 2025</time></small
           >
         </footer>
       </div>

@@ -97,7 +97,7 @@
           Carlos Ortiz -
           <small
             >Last updated on
-            <time datetime="2024-01-01">January 7, 2025</time></small
+            <time datetime="2024-01-01">January 8, 2025</time></small
           >
         </footer>
       </div>

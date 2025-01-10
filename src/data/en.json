@@ -106,7 +106,8 @@
         "GraphQL",
         "WooCommerce",
         "Vitest",
-        "Playwright"
+        "Playwright",
+        "Figma"
       ],
       "projects": []
     },

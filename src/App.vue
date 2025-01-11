@@ -37,7 +37,7 @@
                 >
                   <JobInfo :job="job" />
 
-                  <p class="mb-4" v-if="job.intro" v-text="job.intro"></p>
+                  <p class="mb-4" v-if="job.intro" v-html="job.intro"></p>
 
                   <JobTasks :tasks="job.tasks" />
 
@@ -97,7 +97,7 @@
           Carlos Ortiz -
           <small
             >Last updated on
-            <time datetime="2025-01-10">January 10, 2025</time>
+            <time datetime="2025-01-11">January 11, 2025</time>
           </small>
         </footer>
       </div>

@@ -9,7 +9,7 @@
 
   "experience": [
     {
-      "title": "Lead Frontend Engineer",
+      "title": "Lead Front-end Engineer",
       "company": "FlowArchitect",
       "type": "Contractor Part time",
       "period": "September 2024 - Present",
@@ -80,19 +80,19 @@
       ]
     },
     {
-      "title": "Full Stack Developer",
+      "title": "WordPress Developer",
       "company": "Urchin Labs",
       "type": "Contractor Part time",
       "period": "April 2023 - Feb 2024 | 10 months",
       "place": "Full remote, Spain",
-      "intro": "Urchin Labs is a startup developing a ChatGPT tool to help businesses improve their customer service. The tool leverages Natural Language Processing (NLP) techniques to understand customer queries and provide relevant answers. I am currently working on the development of a WordPress plugin that integrates the ChatGPT tool with client's websites, specifically tailored for WooCommerce sites, enhancing the e-commerce experience with advanced conversational capabilities.",
+      "intro": "Urchin Labs was a startup focused on developing a ChatGPT-powered tool to improve customer service, specifically tailored for WooCommerce sites. Despite the project showing early potential, the startup did not move to the next stage of funding, and operations ceased before the product could be fully launched. However, I took ownership of the project, completing the development independently to ensure it was a fully functional solution. While it was never published on the official WordPress repository, the plugin is publicly available for manual installation on <a href='https://github.com/DuffmanCC/main-gpt-release' target='blank' class='underline font-bold text-blue-600 dark:text-blue-400'>GitHub</a>.",
       "tasks": [
         "- Designed the architecture and functionality of the plugin, integrating ChatGPT and Pinecone vector database for efficient data retrieval.",
         "- Integrated the plugin with the site's existing database, ensuring data security and privacy.",
         "- Developed a user-friendly interface for clients to interact with the Chatbot and receive relevant answers.",
         "- Conducted extensive testing to ensure the plugin's reliability, scalability, and performance.",
         "- Documented the plugin's technical specifications, including installation and usage instructions, for future reference.",
-        "- Built the main site with headless WordPress and Next.js to deliver an enhanced user experience."
+        "- Built the core website using a headless WordPress setup with Next.js to provide a modern, fast, and interactive user experience."
       ],
       "skills": [
         "WordPress",
@@ -162,7 +162,7 @@
         "- Led the design and implementation of new features and functionality to enhance the user experience.",
         "- Defined standards and tech stack in collaboration with other agencies and teams.",
         "- Created custom Gutenberg blocks based on Advanced Custom Fields and Vue.js",
-        "- Developed a design system using <a href='https://storybook.js.org/' target='_blank' class='hover:underline text-blue-800 dark:text-blue-400'>Storybook</a> to manage all frontend resources of the corporate website.",
+        "- Developed a design system using <a href='https://storybook.js.org/' target='_blank' class='hover:underline text-blue-800 dark:text-blue-400'>Storybook</a> to manage all front-end resources of the corporate website.",
         "- Created single-page applications and other microsites based on Vue.js",
         "- Monitored website performance and took appropriate action to ensure optimal performance."
       ],

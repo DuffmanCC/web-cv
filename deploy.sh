@@ -1,3 +1,6 @@
+# check https://github.com/DuffmanCC/web-cv/settings/pages to see 
+# if carlosortiz.dev is in the custom domain field, last time I checked it was empty
+
 #!/usr/bin/env sh
 
 # abort on errors

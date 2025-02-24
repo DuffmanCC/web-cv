@@ -107,7 +107,8 @@
         "WooCommerce",
         "Vitest",
         "Playwright",
-        "Figma"
+        "Figma",
+        "GitHub Actions"
       ],
       "projects": []
     },

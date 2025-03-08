@@ -55,36 +55,7 @@
                 </div>
               </div>
 
-              <div class="mb-8">
-                <h2 class="text-2xl mb-4 font-bold print:text-4xl">
-                  Other projects
-                </h2>
-
-                <ul>
-                  <li>
-                    <a
-                      href="https://networkrail-jobs.vercel.app/"
-                      target="_blank"
-                      class="hover:underline text-blue-800 dark:text-blue-400"
-                      >Network Rail jobs</a
-                    >
-                    -
-                    <a
-                      href="https://github.com/DuffmanCC/networkrail-jobs"
-                      target="_blank"
-                      class="hover:underline text-blue-800 dark:text-blue-400"
-                      >GitHub</a
-                    >: Getting familiar with the new app router in NextJS and
-
-                    <a
-                      href="https://nextui.org/"
-                      target="_blank"
-                      class="hover:underline text-blue-800 dark:text-blue-400"
-                      >NextUI</a
-                    >
-                  </li>
-                </ul>
-              </div>
+              <OtherProjects :projects="content.otherProjects" />
 
               <EducationContent />
             </main>
@@ -92,13 +63,10 @@
         </div>
 
         <footer
-          class="p-3 sm:p-8 xl:px-0 border-b dark:bg-gray-700 xl:dark:bg-gray-900 dark:text-white print:hidden"
+          class="text-sm p-3 sm:p-8 xl:px-0 border-b dark:bg-gray-700 xl:dark:bg-gray-900 dark:text-white print:hidden"
         >
-          Carlos Ortiz -
-          <small
-            >Last updated on
-            <time datetime="2025-01-11">February 24, 2025</time>
-          </small>
+          Last updated on
+          <time datetime="2025-01-11">March 8, 2025</time>
         </footer>
       </div>
     </div>
@@ -112,6 +80,7 @@ import JobInfo from "./components/JobInfo.vue";
 import JobProjects from "./components/JobProjects.vue";
 import JobSkills from "./components/JobSkills.vue";
 import JobTasks from "./components/JobTasks.vue";
+import OtherProjects from "./components/OtherProjects.vue";
 import SideContent from "./components/SideContent.vue";
 import contentEn from "./data/en.json";
 
@@ -126,6 +95,7 @@ export default {
     JobSkills,
     JobTasks,
     EducationContent,
+    OtherProjects,
   },
 
   data() {

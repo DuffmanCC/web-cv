@@ -278,7 +278,7 @@
       "title": "Soroban React Component",
       "url": "https://www.npmjs.com/package/soroban-react-component",
       "githubUrl": "https://github.com/DuffmanCC/soroban-react-component",
-      "description": "A React component to display a Soroban.",
+      "description": "A React component to display a Soroban abacus.",
       "skills": ["React", "NPM"]
     }
   ]

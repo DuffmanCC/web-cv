@@ -8,7 +8,7 @@
       <a
         href="https://www.unex.es/?set_language=en&cl=en"
         target="_blank"
-        class="hover:underline text-blue-800 dark:text-blue-400 cursor-pointer"
+        class="link"
       >
         Universidad de Extremadura
       </a>

@@ -3,13 +3,9 @@
     <h3 class="text-xl">Some Projects</h3>
 
     <ul>
-      <li v-for="(site, i) in projects" :key="i">
-        <a
-          :href="site.url"
-          class="hover:underline text-blue-800 block dark:text-blue-400"
-          target="_blank"
-          :key="i"
-          >- {{ site.title }}</a
+      <li v-for="(site, i) in projects" :key="i" class="list-disc ml-4">
+        <a :href="site.url" class="link" target="_blank" :key="i">
+          {{ site.title }}</a
         >
       </li>
     </ul>

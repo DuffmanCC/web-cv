@@ -3,12 +3,7 @@
     <h3 class="font-bold text-xl print:text-3xl">{{ job.title }}</h3>
 
     <div class="font-bold">
-      <a
-        :href="job.url"
-        target="_blank"
-        class="hover:underline text-blue-800 dark:text-blue-400 cursor-pointer"
-        v-if="job.url"
-      >
+      <a :href="job.url" target="_blank" class="link" v-if="job.url">
         {{ job.company }}
       </a>
 

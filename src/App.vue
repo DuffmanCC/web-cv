@@ -1,74 +1,70 @@
 <template>
-  <div :class="{ dark: darkMode }">
-    <div class="dark:bg-gray-900 text-gray-600">
-      <div class="container max-w-7xl">
-        <HeaderContent @handle-switchers="handleSwitchers" />
+  <div class="dark:bg-gray-900 text-gray-600">
+    <div class="container max-w-7xl">
+      <HeaderContent @handle-switchers="handleSwitchers" />
 
-        <div class="dark:bg-gray-900">
-          <div class="xl:shadow-2xl xl:flex print:flex print:flex-col">
-            <SideContent />
+      <div
+        class="xl:shadow-2xl xl:flex print:flex print:flex-col dark:bg-gray-900"
+      >
+        <SideContent />
 
-            <main
-              class="xl:w-4/5 print:w-full p-3 sm:p-8 dark:bg-gray-700 dark:text-white"
-            >
-              <div id="profile">
-                <h2 class="text-2xl mb-4 font-bold print:text-4xl">Profile</h2>
-
-                <div class="flex flex-col gap-2 print:text-2xl">
-                  <p
-                    v-for="(paragraph, i) in content.profile"
-                    :key="i"
-                    v-html="paragraph"
-                  />
-                </div>
-              </div>
-
-              <hr class="mt-8 mb-12" />
-
-              <div id="experience" class="mb-8">
-                <h2 class="text-2xl mb-4 font-bold print:text-4xl">
-                  Experience
-                </h2>
-
-                <div
-                  v-for="(job, i) in content.experience"
-                  :key="i"
-                  class="print:text-2xl"
-                >
-                  <JobInfo :job="job" />
-
-                  <p class="mb-4" v-if="job.intro" v-html="job.intro"></p>
-
-                  <JobTasks :tasks="job.tasks" />
-
-                  <JobSkills :skills="job.skills" />
-
-                  <JobProjects :projects="job.projects" />
-
-                  <hr
-                    class="my-4 print:my-16"
-                    :class="{
-                      'break-before-page print:py-12':
-                        i === 0 || i === 3 || i === 5,
-                    }"
-                  />
-                </div>
-              </div>
-
-              <OtherProjects :projects="content.otherProjects" />
-
-              <EducationContent />
-            </main>
-          </div>
-        </div>
-
-        <footer
-          class="text-sm p-3 sm:p-8 xl:px-0 border-b dark:bg-gray-700 xl:dark:bg-gray-900 dark:text-white print:hidden"
+        <main
+          class="xl:w-4/5 print:w-full p-3 sm:p-8 dark:bg-gray-700 dark:text-white"
         >
-          Last updated on
-          <time datetime="2025-01-11">March 8, 2025</time>
-        </footer>
+          <div id="profile">
+            <h2 class="text-2xl mb-4 font-bold print:text-4xl">Profile</h2>
+
+            <div class="flex flex-col gap-2 print:text-2xl">
+              <p
+                v-for="(paragraph, i) in content.profile"
+                :key="i"
+                v-html="paragraph"
+              />
+            </div>
+          </div>
+
+          <hr class="mt-8 mb-12" />
+
+          <div id="experience" class="mb-8">
+            <h2 class="text-2xl mb-4 font-bold print:text-4xl">Experience</h2>
+
+            <div
+              v-for="(job, i) in content.experience"
+              :key="i"
+              class="print:text-2xl"
+            >
+              <JobInfo :job="job" />
+
+              <p class="mb-4" v-if="job.intro" v-html="job.intro"></p>
+
+              <JobTasks :tasks="job.tasks" />
+
+              <JobSkills :skills="job.skills" />
+
+              <JobProjects :projects="job.projects" />
+
+              <hr
+                class="my-4 print:my-16"
+                :class="{
+                  'break-before-page print:py-12':
+                    i === 0 || i === 3 || i === 5,
+                }"
+              />
+            </div>
+          </div>
+
+          <OtherProjects :projects="content.otherProjects" />
+
+          <EducationContent />
+        </main>
       </div>
+
+      <footer
+        class="text-sm p-3 sm:p-8 xl:px-0 border-b dark:bg-gray-700 xl:dark:bg-gray-900 dark:text-white print:hidden"
+      >
+        Last updated on
+        <time datetime="2025-01-11">March 8, 2025</time>
+      </footer>
     </div>
   </div>
 </template>
@@ -113,6 +109,12 @@ export default {
   methods: {
     handleSwitchers({ darkMode }) {
       this.darkMode = darkMode;
+    },
+  },
+
+  watch: {
+    darkMode(value) {
+      document.documentElement.classList.toggle("dark", value);
     },
   },
 

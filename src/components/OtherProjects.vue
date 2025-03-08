@@ -2,14 +2,11 @@
   <div class="mb-8" v-if="projects && projects.length > 0">
     <h2 class="text-2xl mb-4 font-bold print:text-4xl">Other projects</h2>
 
-    <ul>
+    <ul class="list-disc ml-4">
       <li v-for="(project, i) in projects" :key="i">
-        <a
-          :href="project.url"
-          target="_blank"
-          class="hover:underline text-blue-800 dark:text-blue-400"
-          >{{ project.title }}</a
-        >
+        <a :href="project.url" target="_blank" class="link">{{
+          project.title
+        }}</a>
         - <span v-html="project.description"></span> -
 
         <a

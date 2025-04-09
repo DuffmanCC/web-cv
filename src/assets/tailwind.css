@@ -37,5 +37,11 @@
 }
 
 .link {
-  @apply underline text-blue-700 hover:text-blue-900 dark:hover:text-blue-300 dark:text-blue-400 cursor-pointer;
+  @apply pr-4 relative underline text-blue-700 hover:text-blue-900 dark:hover:text-blue-300 dark:text-blue-400 cursor-pointer;
+}
+
+.link::after {
+  content: url("./external-link.svg");
+  position: absolute;
+  top: -0.2rem;
 }

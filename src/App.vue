@@ -63,7 +63,7 @@
         class="text-sm p-3 sm:p-8 xl:px-0 border-b dark:bg-gray-700 xl:dark:bg-gray-900 dark:text-white print:hidden"
       >
         Last updated on
-        <time datetime="2025-04-09">April 9, 2025</time>
+        <time datetime="2025-04-09">May 7, 2025</time>
       </footer>
     </div>
   </div>

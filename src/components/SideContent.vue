@@ -8,8 +8,8 @@
       <p class="text-3xl xl:text-xl print:text-2xl">Full Stack Developer</p>
     </div>
 
-    <div class="flex justify-start xl:flex-col print:flex">
-      <div class="font-light text-lg px-2 mb-6 mr-4">
+    <div class="flex justify-start xl:flex-col">
+      <div class="font-light text-lg px-2 xl:mb-6 mr-4">
         <h2 class="text-xl print:text-3xl font-bold mb-3">Contact</h2>
 
         <div class="print:text-xl">
@@ -72,7 +72,7 @@
         </div>
       </div>
 
-      <div class="font-light text-lg px-2 mb-6">
+      <div class="font-light text-lg px-2">
         <h2 class="text-xl print:text-3xl font-bold mb-3">Languages</h2>
 
         <h3 class="text-lg print:text-2xl">Spanish</h3>

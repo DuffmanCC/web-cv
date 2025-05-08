@@ -3,9 +3,7 @@
     <div class="container max-w-7xl">
       <HeaderContent @handle-switchers="handleSwitchers" />
 
-      <div
-        class="xl:shadow-2xl xl:flex print:flex print:flex-col dark:bg-gray-900"
-      >
+      <div class="xl:shadow-2xl xl:flex dark:bg-gray-900">
         <SideContent />
 
         <main
@@ -47,7 +45,7 @@
                 class="my-4 print:my-16"
                 :class="{
                   'break-before-page print:py-12':
-                    i === 0 || i === 3 || i === 5,
+                    i === 1 || i === 4 || i === 6,
                 }"
               />
             </div>
